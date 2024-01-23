@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="./estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="cuadrado">
+      <div id="app">
+        <h1>Todo List</h1>
+        <h5>
+          ___________________________________________________________________
+        </h5>
+        <h3>Nueva Tarea</h3>
+        <input type="text" id="taskInput" placeholder="" />
+        <button class="A1" onclick="addTask()">Agregar</button>
+
+        <p>Total: <span id="totalTasks">0</span></p>
+        <p>Realizadas: <span id="completedTasks">0</span></p>
+
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

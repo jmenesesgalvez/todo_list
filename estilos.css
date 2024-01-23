@@ -1,0 +1,72 @@
+
+       
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          display: flex;
+         
+        }
+        #app input {
+          width: 500px;
+          height: 30px;
+          border-radius: 3px;
+          margin-right: 50px;
+        }
+        #app button {
+          width: 80px;
+          height: 30px;
+          border-radius: 3px;
+          margin-right: 10px;
+          background-color :#229945;
+          color : white;
+        }
+      
+        #app h3 {
+          margin-right: 530px;
+          margin-top: 0px;
+          
+        }
+        #app p {
+          margin-right: 550px;
+        }
+     
+        #app {
+          margin: auto;
+          text-align: center;
+        }
+        #app h1 {
+            text-align: left;
+            margin-left: 30px;
+            
+        }
+        #app h5 {
+            text-align: left;
+            margin-top: -20px;
+            margin-left: 30px;
+        }
+    
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+    
+        li {
+          margin: 10px 0;
+        }
+
+        .delete-btn {
+          cursor: pointer;
+          color: #ff3333;
+        }
+    
+        .completed {
+          text-decoration: line-through;
+          color: #229945;
+        }
+        .cuadrado {
+            width: 700px;         
+            height: auto;         
+            background: rgb(196, 194, 194);    
+            border: 1px solid #000; 
+          }
